@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>LRS |Financial Services!</title>
+	<meta name="description" content="Insurancy is sharp Insurance agency website template based on HTML CSS and JavaScript specially designed for insurance company, insurance agency and startup agency.">
+    <meta name="keywords" content="insurance broker website template, website template for insurance company, insurance website templates free download, insurance company website template, life insurance website template, insurance agency website template, auto insurance website template, insurance agency, html5 website template, insurance website examples, car insurance website template, insurance responsive website template free download">
+    <meta name="author" content="atulcodex - Atul Prajapati | Web Developer">
+	<!-- Favicon -->
+	<link rel="icon" type="image/png" href="img/shield.png">
+	<!-- External CSS link -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Ionic icons CDN -->
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+	<!-- Jquery CDN link -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body class="">
+	<!-- Scroll to top starts -->
+	<button id="topBtn">
+	  	<ion-icon name="arrow-up-outline"></ion-icon>
+	</button>
+	<!-- Scroll to top ends -->
+	<!-- Navigation starts -->
+	<div class="top-bar">
+	</div>
+	<nav>
+		<div class="menu-container nav-wrapper">
+			<div class="brand">
+				<a href="index.html">
+					<img src="img/Logo.png" alt="insurancy-logo" border="0"> 
+				</a>
+			</div>
+			<div class="hamberger">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+
+			<ul class="nav-list">
+				<li class="active"><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li>
+					<a href="insurance.html">Our Services</a>
+					<ul class="dropdown-list">
+						<li><a href="insurance-details.html">Life Cover</a></li>
+						<li><a href="Disability cover.html">Disability Cover</a></li>
+						<li><a href="insurance-details.html">Dread/Severe illness cover</a></li>
+						<li><a href="insurance-details.html">Retirement</a></li>
+						<li><a href="insurance-details.html">Investment</a></li>
+						<li><a href="insurance-details.html">Health</a></li>
+					</ul>
+				</li>
+				<li><a href="news.html">Blog</a></li>
+				<li><a href="contact.html">Contacts</a></li>
+				<li>
+					<form class="search-form">
+						<div class="search-container">
+							<label1  class="underline" type="text" id="search" placeholder="Search" style="color: #263C80;">Search:
+								<label1  onclick="search()" style="color: red;">Search</label> 
+						</div>
+						<script src="script.js"></script>
+					 <!-- <input type="text" id="searchInput" placeholder="Search...">  -->
+					</form>
+				</li>
+				<li>
+					<button class="btn btn-blue">
+						<a href="tel:9876654321">GET A QUOTE</a>
+					</button>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<!-- Navigation ends -->
+	<!-- Hero section starts -->
+	<section class="hero">
+		<div class="hero-container">
+			<div class="row">
+				<div class="col hero-content">
+					<h2 class="hero-heading white" style="color: #263C80">
+						<mark >All insurance<br/></mark> in one place
+					</h2>
+					<p class="para-line white" style="color: #263C80;" >
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.perspiciatis vero libero, aliquam necessitatibus soluta <br/>neque, alias repudiandae.
+					</p>
+					<div class="inner-row">
+						<div class="inner-col">
+							<button class="btn" style="color: #263C80">
+								<a href="#" style="color: white;">GET A QUOTE</a>
+							</button>
+						</div>
+	
+					</div>
+				</div>
+				<div class="col hero-blank-col"></div>
+			</div>
+		</div>
+	</section>
+	<!-- Hero section ends -->
+	<section id="statistic" class="statistic-section one-page-section">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-xs-12 col-md-3">
+                    <div class="counter">
+                        <i class="fa fa-coffee fa-2x stats-icon"></i>
+                        <h2 class="timer count-title count-number">20 years</h2>
+						<!-- <p class="stats-text">Years</p> -->
+                        <div class="stats-line-black"></div>
+						<p style="font-size: small;">Lorem ipsum dolor sit amet consectetur  <br/>elit. Accusamus perspiciatis</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-3">
+                    <div class="counter">
+                        <i class="fa fa-clock-o fa-2x stats-icon"></i>
+                        <h2 class="timer count-title count-number">6 Years Experience</h2>
+                        <div class="stats-line-black"></div>
+                        <p class="stats-text"style="font-size: small;">Lorem ipsum dolor sit amet consectetur</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-3">
+                    <div class="counter">
+                        <i class="fa fa-laptop fa-2x stats-icon"></i>
+                        <h2 class="timer count-title count-number">98% clients</h2>
+                        <div class="stats-line-black"></div>
+                        <p class="stats-text" style="font-size: small;">Lorem ipsum dolor sit amet consectetur</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+	<!-- Testimonial section starts -->
+	<section class="service-banner">
+	<br/>
+	<br/>
+			<h2 class="hero-heading white" style="margin-left:18%;font-size:large; color:#263C80">
+				<mark >OUR SERVICES</mark> 
+			</h2>
+			<br/>
+			<h2 style="margin-left:18%;color: white;"> Reliable Guarantees:<br/>Insurance with Confidence</h2>
+		<!-- <img src="" alt="Service Banner"> -->
+	</section>
+	
+	<!-- Testimonial section ends -->
+	<!-- Services section starts -->
+	<section class="our-services">
+		<div class="container">
+			<div class="services">
+				<div class="service">
+					<img src="./img/Life cover.png" >
+					<br/><br/>
+					<h2 class="service-heading">Life Cover</h2>
+					<p class="para-line">
+						Bitters put a bird on it live-edge, asymmetrical man braid brunch. 
+					</p>
+				</div>
+				<div class="service">
+					<img src="./img/Disability cover.png" >
+					<br/><br/>
+					<!-- <ion-icon name="car-sport-outline"></ion-icon> -->
+					<h2 class="service-heading">Disability cover</h2>
+					<p class="para-line">
+						Bitters put a bird on it live-edge, asymmetrical man braid brunch. 
+					</p>
+				</div>
+				<div class="service">
+					<img src="./img/Dread-Service-Illness cover.png" >
+					<br/><br/>
+					<!-- <ion-icon name="airplane-outline"></ion-icon> -->
+					<h2 class="service-heading">Dread-Service-Illness cover</h2>
+					<p class="para-line">
+						Bitters put a bird on it live-edge, asymmetrical man braid brunch. 
+					</p>
+				</div>
+				<div class="service">
+					<img src="./img/Investment cover.png" >
+					<br/><br/>
+					<!-- <ion-icon name="fitness-outline"></ion-icon> -->
+					<h2 class="service-heading">Investment cover</h2>
+					<p class="para-line">
+						Bitters put a bird on it live-edge, asymmetrical man braid brunch. 
+					</p>
+				</div>
+				<div class="service">
+					<img src="./img/Health.png" >
+					<br/><br/>
+					<!-- <ion-icon name="happy-outline"></ion-icon> -->
+					<h2 class="service-heading">Health</h2>
+					<p class="para-line">
+						Bitters put a bird on it live-edge, asymmetrical man braid brunch. 
+					</p>
+				</div>
+				<div class="service">
+					<img src="./img/Reteirement.png" style="size: 30%;" >
+					<br/><br/>
+					<!-- <ion-icon name="medkit-outline"></ion-icon> -->
+					<h2 class="service-heading" style="left: 35%;">Retirement</h2>
+					<p class="para-line">
+						Bitters put a bird on it live-edge, asymmetrical man braid brunch. 
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Services section ends -->
+	<div class="" style="align-items: center;margin-left: 1%;">
+        <section class="about">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<img src="./img/Logo.png" alt="About Insurancy" title="About Insurancy" class="about-image" style=" width: 50%;">
+						<!-- Adjust max-height as needed; width will adjust automatically -->
+					</div>
+					<div class="col" style="margin-right: 10%;">
+						<div class="values-section">
+							<h2>
+								WHY Insurance?</h2>
+							<ul>
+								<li><strong>I</strong> -  To provide INFLATION beating long – Term wealth protection and creation</li>
+								<li><strong>N</strong> -  To provide the life cover you NEED to protect your dependants against the financial consequences at your death.</li>
+								<li><strong>S</strong> -  A SECURE and disciplined way of saving for a special goal</li>
+								<li><strong>U</strong> -  Peace of mind to provide for yourself and your dependants if you are UNABLE to perform your job and earn an income</li>
+								<li><strong>R</strong> -  To RETIRE financially secure and be one of the 6% of all South Africans who can afford this peace of mind.</li>
+								<li><strong>A</strong> -  Investment returns achieved on ASSETS held within insurance products that are favourable taxed for the individual.</li>
+								<li><strong>N</strong> -  NECESSARY protection against the financial consequences associated with the hazard of life</li>
+								<li><strong>C</strong> -  To make sure you don’t outlive your capital after retirement</li>
+								<li><strong>E</strong> -  To fund your children’s EDUCATION that could be one of the most costly investments for you</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+            
+        </div>
+        
+    </div>
+	<section class="service-banner">
+		<br/>
+		<br/>
+				<h2 class="hero-heading white" style="margin-left:18%;font-size:large; color:#263C80">
+				
+			<!-- <img src="" alt="Service Banner"> -->
+		</section>
+	 <!-- About section starts -->
+	 <section class="about">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<img src="./img/Why choose LSR-image.jpg" alt="About Insurancy" title="About Insurancy" class="about" style=" width: 90%;">
+					
+				</div>
+				<div class="col">
+					<h3 class="hero-heading white" style="margin-left: 1%; font-size: large; color: #263C80;">
+						<mark>WHY CHOOSE US</mark>
+					</h3>
+					<h3 class="heading" style="font-size:medium;">Part of the process requires us to follow the six steps in the financial planning process.
+
+						In the business of everyday life, it is not uncommon for the steps to be switched around, sometimes resulting on the acquisition of a quote for a specific need first and foremost before the balance of the steps are addressed.</h3>
+					<p class="para-line">
+						The Six Steps of Financial Planning
+					</p>
+					<br>
+					<p class="para-line" style="font-size: small;margin-left: 1%;">
+						<ul  style="margin-left: 3%;">
+							<li> 
+								Step 1:  Establish and define the relationship with the client</li>
+							<li>Step 2: Collecting the client's information</li>
+							<li>Step 3: Analyse and assess the client's financial status</li>
+							<li>Step 4: Identify suitable financial planning strategies and develop the financial planning recommendations and solutions</li>
+							<li>Step 5: Implement the recommendations</li>
+							<li>Step 6: Review the client's situation</li>
+						</ul>
+					</p>
+					
+					<!-- If you need a button, uncomment and modify as necessary -->
+					<!-- <button class="btn btn-blue btn-full-w">
+						<a href="#">Read More</a>
+					</button> -->
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<!-- About section ends -->
+	<div class="container1">
+        <div class="header">
+            <span class="partnership"><mark>PARTNERSHIPS</mark></span>
+            <h1 style="top: 50%;">Global Allies, Local Excellence</h1>
+        </div>
+	</br/></br/>
+        <div class="logos" style="margin-left: -8%;">
+            <div class="logo-item"><img src="./img/allan-gray.png" alt="SafeCo"></div>
+            <div class="logo-item"><img src="./img/old mutual.jpeg" alt="QUALIQ"></div>
+            <div class="logo-item"><img src="./img/liberty.png" alt="PoliCover"></div>
+            <div class="logo-item"><img src="./img/Santu.png" alt="Tick Text Insure"></div>
+            <div class="logo-item"><img src="./img/partner-5.png" alt="TrustFund"></div>
+            <div class="logo-item"><img src="./img/partner-6.png" alt="WellCare"></div>
+        </div>
+    </div>
+</br/></br/>
+<!-- Testimonial section starts -->
+<section class="testimonial">
+	<div class="container">
+		<div class="image-container" style="float: left; width: 40%; margin-right: 20px;">
+			<img src="./img/LSR-image-2.png" alt="Customer Image" style="width: 100%; ">
+		</div>
+		<div class="text-container" style="float: right; width: 55%;">
+			<!-- <h2>What Our Customers Say</h2> -->
+			<div class="paragraph-container" style="text-align: justify;color: white;">
+				<br/><br/><br/><br/>
+				<blockquote>
+					<p>&ldquo;If I had my way, I would write the word &ldquo;Insure&rdquo; upon the door of every cottage and upon the blotting book of every public man, because I am convinced, for sacrifices so small, families and estates can be protected against catastrophes which would otherwise smash them up forever.</p>
+					<p>It is our duty to arrest the ghastly waste, not merely of human happiness but national health and strength which follows when, through the death of the breadwinner, the frail boat in which the family are embarked, flounders and the women and children and the estates are left to struggle in the dark waters of a friendless world.&rdquo;</p>
+				  </blockquote>
+				  
+			</div>
+			<div class="customer-info" style="display: flex; align-items: center; margin-top: 20px;">
+				<div>
+					<p class="customer-name" style="margin: 0; font-weight: bold; color: white; text-align: end; ">Churchill Winston</p>
+
+					<!-- <p class="customer-name" style="margin: 0; font-weight: bold; color: white; margin-left: 179%;">Churchill  Winston</p> -->
+					<!-- <p class="customer-location" style="margin: 0; color: white;margin-left: 179%;"></p> -->
+					
+				</div>
+			</div>
+		</div>
+		<div style="clear: both;"></div>
+	</div>
+</section>
+
+
+<!-- Testimonial section ends -->
+ 
+	<!-- Why us section starts -->
+	<section class="why-us">
+		<div class="container">
+			<div class="row">
+				<div class="col why-us-content">
+					<h4 class="sub-heading"></h4>
+
+					<h2 class="heading">
+						Secure Your Financial Future
+					</h2>
+
+					<p class="para-line">
+						We are happy to answer any questions you may have and help you determine which of our services best fit your needs.
+					</p>
+
+					<div class="inner-row why-us-row">
+						<div class="inner-col why-us-col">
+							<h3 class="why-us-highlight-heading">
+								CALL US FOR ANY QUESTIONS
+							</h3>
+							
+							<p class="para-line">
+								Tel: (011) 46202768
+							</p>
+						</div>
+						<div class="inner-col why-us-col">
+							<h3 class="why-us-highlight-heading">
+								WRITE TO US
+							</h3>
+							<p class="para-line">
+								info@lsrfinancialservices.co.za
+
+							</p>
+							
+						</div>
+					</div>
+				</div>
+				<div class="col why-us-lead-form">
+					<div class="lead-form">
+						<form action="">
+							<div class="input-field">
+								<label for="name">Full Name</label>
+								<input type="text" id="name" placeholder="Your name" required>
+							</div>
+
+							<div class="input-field">
+								<label for="number">Phone No.</label>
+								<input type="text" id="number" placeholder="Your phone number" required>
+							</div>
+
+							<div class="input-field">
+								<label for="email">Email Address</label>
+								<input type="email" id="email" placeholder="Your email address" required>
+							</div>
+
+							<button class="btn btn-blue">
+								<a href="#">Get A Quote</a>
+							</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	 <!-------------------- FAQ section -------------------------->
+	 <section class="faqs">
+		<div class="container">
+			<!-- <h4 class="sub-heading white">Section overline</h4> -->
+			<h2 class="heading white">
+				Most Asked Questions
+			</h2>
+	
+			<div class="let-them-ask">
+				<div class="row faq-row">
+					<div class="col">
+						<div class="faq">
+							<div class="question">
+								  <h3>1. what is insurance service?</h3>
+								  <svg width="15" height="10" viewBox="0 0 42 25">
+									<path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round" />
+								  </svg>
+							</div>
+							<div class="answer">
+								  <p class="para-line white">
+									Insurance is a contract, represented by a policy, in which an individual or entity receives financial protection or reimbursement against losses from an insurance company.
+								  </p>
+							</div>
+						</div>
+						  
+						<div class="faq">
+							<div class="question">
+								  <h3>2.How do I choose the right insurance policy?</h3>
+							  
+								  <svg width="15" height="10" viewBox="0 0 42 25">
+									<path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round" />
+								  </svg>
+							</div>
+							<div class="answer">
+								  <p class="para-line white">
+									Consider factors such as coverage needs, policy limits, premiums, deductibles, and the reputation of the insurance company.
+								  </p>
+							</div>
+						</div>
+						  
+						<div class="faq">
+							<div class="question">
+								  <h3>3. What is a premium?</h3>
+							  
+								  <svg width="15" height="10" viewBox="0 0 42 25">
+									<path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round" />
+								  </svg>
+							</div>
+							<div class="answer">
+								  <p class="para-line white">
+									A premium is the amount you pay for your insurance policy, typically on a monthly, quarterly, or annual basis.
+								  </p>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="faq">
+							<div class="question">
+								  <h3>4. How do I file an insurance claim?</h3>
+							  
+								  <svg width="15" height="10" viewBox="0 0 42 25">
+									<path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round" />
+								  </svg>
+							</div>
+							<div class="answer">
+								  <p class="para-line white">
+									Contact your insurance company, provide details of the incident, and follow their instructions for submitting necessary documentation.
+								  </p>
+							</div>
+						</div>
+						  
+						<div class="faq">
+							<div class="question">
+								  <h3>5. What is a deductible?</h3>
+							  
+								  <svg width="15" height="10" viewBox="0 0 42 25">
+									<path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round" />
+								  </svg>
+							</div>
+							<div class="answer">
+								  <p class="para-line white">
+									A deductible is the amount you pay out of pocket before your insurance policy pays for any covered losses.
+								  </p>
+							</div>
+						</div>
+						  
+						<div class="faq">
+							<div class="question">
+								  <h3>6. What is a policy limit?</h3>
+							  
+								  <svg width="15" height="10" viewBox="0 0 42 25">
+									<path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round" />
+								  </svg>
+							</div>
+							<div class="answer">
+								  <p class="para-line white">
+									A policy limit is the maximum amount an insurance company will pay for a covered loss.
+								  </p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-------------------- FAQ section -------------------------->
+	<!-- Why us section ends --
+	<div class="partners">
+		<div class="row">
+			<div class="col">
+				<h4 class="sub-heading">Companies we work with</h4>
+				<h2 class="heading">Insurance Partners</h2>
+			</div>
+			<div class="col partners-grid">
+				<img src="img/partner-1.png" alt="Partner" title="Partner" class="partner-img">
+				<img src="img/partner-2.png" alt="Partner" title="Partner" class="partner-img">
+				<img src="img/partner-3.png" alt="Partner" title="Partner" class="partner-img">
+				<img src="img/partner-4.png" alt="Partner" title="Partner" class="partner-img">
+				<img src="img/partner-5.png" alt="Partner" title="Partner" class="partner-img">
+				<img src="img/partner-6.png" alt="Partner" title="Partner" class="partner-img">
+			</div>
+		</div>
+	</div>
+	<!-- Overline section starts --
+	<section class="overline">
+		<div class="container">
+			<h4 class="sub-heading white">Section overline</h4>
+			<h2 class="heading white">
+				Best Insurance Policies
+			</h2>
+			<img src="img/insurance-policies.jpg" alt="Insurance Policies" title="Insurance policies" class="insurance-policies">
+			<div class="overlines">
+				<div class="row">
+					<div class="col">
+						<ion-icon name="analytics-outline" class="white"></ion-icon>
+						<h2 class="overline-heading">Insurance Made Simple</h2>
+						<p class="para-line white">
+							Narw tbh flannel. Hot chicken gochujangtogen off vapo.
+						</p>
+					</div>
+					<div class="col">
+						<ion-icon name="briefcase-outline" class="white"></ion-icon>
+						<h2 class="overline-heading">Experienced Agents</h2>
+						<p class="para-line white">
+							Narw tbh flannel. Hot chicken gochujangtogen off vapo.
+						</p>
+					</div>
+					<div class="col">
+						<ion-icon name="trophy-outline" class="white"></ion-icon>
+						<h2 class="overline-heading">Winning Agency</h2>
+						<p class="para-line white">
+							Narw tbh flannel. Hot chicken gochujangtogen off vapo.
+						</p>
+					</div>
+					<div class="col">
+						<ion-icon name="planet-outline" class="white"></ion-icon>
+						<h2 class="overline-heading">Global Presence</h2>
+						<p class="para-line white">
+							Narw tbh flannel. Hot chicken gochujangtogen off vapo.
+						</p>
+					</div>
+				</div>
+			</div>
+			<button class="btn btn-yellow">
+				<a href="#">All Our Policies</a>
+			</button>
+		</div>
+	</section>
+	<!-- Overline section ends -->
+	<!-- About section starts --
+	<section class="about">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h4 class="sub-heading">About the Company</h4>
+					<h2 class="heading">Our Story</h2>
+					<p class="para-line">
+						Deserunt coloring book pug enamel pin. Voluptate copper mug sustainable pabst semiotics snackwave polaroid, tousled in prism. Forage cloud bread mustache dolor sartorial edison bulb laboris lyft vape raclette incididunt beard ea tilde pork belle ice.
+					</p>
+					<div class="about-highlights">
+						<div class="about-highlight-line">
+							<ion-icon name="chevron-forward-outline"></ion-icon>
+							<h5 class="highlight-line-heading">Experienced Team</h5>
+						</div>
+						<div class="about-highlight-line">
+							<ion-icon name="chevron-forward-outline"></ion-icon>
+							<h5 class="highlight-line-heading">Online Insurance Assistant</h5>
+						</div>
+						<div class="about-highlight-line">
+							<ion-icon name="chevron-forward-outline"></ion-icon>
+							<h5 class="highlight-line-heading">Insurance Coverage</h5>
+						</div>
+					</div>
+
+					<button class="btn btn-blue btn-full-w">
+						<a href="#">Read More</a>
+					</button>
+				</div>
+				<div class="col">
+					<img src="img/about-img.jpg" alt="About Insurancy" title="About Insurancy" class="about-img">
+				</div>
+			</div>
+			<div class="partners">
+				<div class="row">
+					<div class="col">
+						<h4 class="sub-heading">Companies we work with</h4>
+						<h2 class="heading">Insurance Partners</h2>
+					</div>
+					<div class="col partners-grid">
+						<img src="img/partner-1.png" alt="Partner" title="Partner" class="partner-img">
+						<img src="img/partner-2.png" alt="Partner" title="Partner" class="partner-img">
+						<img src="img/partner-3.png" alt="Partner" title="Partner" class="partner-img">
+						<img src="img/partner-4.png" alt="Partner" title="Partner" class="partner-img">
+						<img src="img/partner-5.png" alt="Partner" title="Partner" class="partner-img">
+						<img src="img/partner-6.png" alt="Partner" title="Partner" class="partner-img">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- About section ends --
+	
+	<section class="consultancy">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="lead-form">
+						<h2>Free 1 Hour Consultancy Session</h2>
+						<form action="">
+							<div class="input-field">
+								<label for="name">Full Name</label>
+								<input type="text" id="name" placeholder="Your Name">
+							</div>
+
+							<div class="input-field">
+								<label for="email">Email Address</label>
+								<input type="email" id="email" placeholder="Your email address">
+							</div>
+
+							<button class="btn btn-blue">
+								<a href="#">Get A Quote</a>
+							</button>
+						</form>
+					</div>
+				</div>
+				<div class="col">
+					<div class="lead-form agent-card">
+						<img src="img/agent.jpg" alt="Agent" title="Agent" class="agent-img">
+						<h3 class="agent-name">Jason Vickens</h3>
+						<p class="para-line">Senior Insurance Agent</p>
+						<h6 class="agent-number">
+							<ion-icon name="call-outline"></ion-icon> (081) 1149-5421-2315
+						</h6>
+						<h6 class="agent-email">
+							<ion-icon name="mail-unread-outline"></ion-icon> jason@insurancy.com
+						</h6>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<!--------------- Footer ------------------>
+	
+	<footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <img src="./img/Logo.png" alt="LSR Logo" class="footer-logo">
+                <!-- <p>SUBSCRIBE FOR INSURANCE NEWS NOW</p> -->
+                <a href="mailto: rathie@lsrfinancialservices.co.za"> rathie@lsrfinancialservices.co.za</a>
+                <p><i class="fas fa-map-marker-alt"></i> 1547 Miradelle, 170 Bellairs Drive,
+					Northriding, 2162 P O Box 9040
+					Weltevredenpark, 1715</p>
+                <p><i class="fas fa-phone"></i> (011) 46202768</p>
+            </div>
+            <div class="footer-section">
+                <h4>GET IN TOUCH !</h4>
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>QUICK LINKS</h4>
+                <ul>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">PRICING</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">CAREERS <span class="badge">We’re hiring</span></a></li>
+                    <li><a href="#">LATEST NEWS</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>POPULAR SERVICES</h4>
+                <ul>
+                    <li><a href="insurance-details.html">Life Cover</a></li>
+						<li><a href="insurance-details.html">Disability Cover</a></li>
+						<li><a href="Dread severe illness cover.html">Dread/Severe illness cover</a></li>
+						<li><a href="insurance-details.html">Retirement</a></li>
+						<li><a href="insurance-details.html">Investment</a></li>
+						<li><a href="insurance-details.html">Health</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright © 2024. All Rights Reserved.</p>
+            <!-- <p>Back to Top</p> -->
+        </div>
+    </footer>
+	<!--------------- Footer ------------------
+	<footer>
+		<div class="footer-container">
+			<p class="para-line white">Copyright © 2024</p>
+		</div>
+	</footer>
+	<!--------------- Footer ------------------>
+	
+
+
+
+	<!-------------- Importing JS file -------------->
+	<script src="js/script.js"></script>
+	<script>
+		// FAQ script
+		const faqs = document.querySelectorAll(".faq");
+
+		faqs.forEach(faq => {
+		  faq.addEventListener("click", () => {
+		    faq.classList.toggle("active");
+		  })
+		})
+	</script>
+	
+	<script>
+		// ------------------------ Scroll to top button --------------------
+		$(document).ready(function(){
+		  $(window).scroll(function(){
+		    if($(this).scrollTop() > 40)
+		    {
+		      $('#topBtn').fadeIn();
+		    }
+		    else
+		    {
+		      $('#topBtn').fadeOut();
+		    }
+		  });
+		  
+		   $("#topBtn").click(function(){
+		      $('html, body').animate({scrollTop: 0},800);
+		   });             
+		});
+		// ------------------------ Scroll to top button --------------------
+	</script>
+</body>
+</html>
